@@ -1,0 +1,26 @@
+# i++ - Increment a digit (mod 10)
+# Read a digit '0'-'9' and output the next digit (with wraparound)
+
+# Create lookup table
+# mem[48] = '1', mem[49] = '2', ..., mem[56] = '9', mem[57] = '0'
+# ASCII '0' = 48, '1' = 49, ..., '9' = 57
+
+[48]<49
+[49]<50
+[50]<51
+[51]<52
+[52]<53
+[53]<54
+[54]<55
+[55]<56
+[56]<57
+[57]<48
+
+# Read input digit into A
+A<I
+
+# Output mem[A]
+O<[A]
+
+# Halt
+Z<1

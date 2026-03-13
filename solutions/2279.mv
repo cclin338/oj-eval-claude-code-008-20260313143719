@@ -1,0 +1,16 @@
+# echo - Output all input characters until EOF
+# When EOF is reached, I returns 0
+
+# Set mem[0] = 1 (halt signal)
+[0]<1
+
+# Read character into A
+A<I
+
+# Check if should halt: Z<[A]
+# If A=0, Z=mem[0]=1, so halt
+# If A!=0, Z=mem[A]=0 (default), so continue
+Z<[A]
+
+# Output A
+O<A

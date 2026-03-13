@@ -1,0 +1,29 @@
+# Hello World
+# Output: Hello World!
+
+# Output 'H' (ASCII 72)
+O<72
+# Output 'e' (ASCII 101)
+O<101
+# Output 'l' (ASCII 108)
+O<108
+# Output 'l' (ASCII 108)
+O<108
+# Output 'o' (ASCII 111)
+O<111
+# Output ' ' (ASCII 32)
+O<32
+# Output 'W' (ASCII 87)
+O<87
+# Output 'o' (ASCII 111)
+O<111
+# Output 'r' (ASCII 114)
+O<114
+# Output 'l' (ASCII 108)
+O<108
+# Output 'd' (ASCII 100)
+O<100
+# Output '!' (ASCII 33)
+O<33
+# Halt
+Z<1

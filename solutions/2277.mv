@@ -1,0 +1,26 @@
+# if else - Compare two characters
+# Read two characters and output '1' if equal, '0' otherwise
+
+# Initialize lookup table
+# mem[0] = '0' (ASCII 48)
+# mem[1] = '1' (ASCII 49)
+[0]<48
+[1]<49
+
+# Read first character into A
+A<I
+
+# Mark position A in memory
+[A]<1
+
+# Read second character into B
+B<I
+
+# Check if mem[B] == 1 (which means A == B)
+C<[B]
+
+# Output mem[C] which is '0' or '1'
+O<[C]
+
+# Halt
+Z<1
